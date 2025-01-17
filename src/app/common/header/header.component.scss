@@ -1,0 +1,23 @@
+.navbar {
+  opacity: 0.8;
+  padding-top: 0;
+  transition: opacity 0.5s ease,  padding-top  0.5s ease;
+
+}
+.scrolled {
+  padding-top: 1rem;
+  opacity: 0.7;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  margin-right: 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
